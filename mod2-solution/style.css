@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito');
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F1DFDB; 
+	font-family: 'Nunito', sans-serif;
+	color: #43004F;
+	font-size: 18px;
+	padding: 1%;
+}
+
+h1, h2 {
+	font-family: 'Indie Flower', cursive;
+	}
+
+h1 {
+	font-size: 1.75em;
+	text-align: center;
+	padding: 2%;
+}
+
+h2 {
+	font-size: 1.25em;
+	text-align: center;
+	line-height: 32px;
+	border-bottom: solid 1px #FF722D;
+	border-left: solid 1px #FF722D;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 120px;
+}
+
+p {
+	margin: 4%;
+}
+
+section {
+	background: #ACACAC;
+	border: solid 1px #FF722D;
+	margin: 1%;
+	padding: 25px 1% 1% 1%; 
+	position: relative;
+	float: left;
+}
+
+.section1>h2 {
+	background-color: #6CFFA6;
+}
+
+.section2>h2 {
+	background-color: #61CDD8;
+}
+
+.section3>h2 {
+	background-color: #CB5BBA;
+}
+
+.section1 {
+	background-color: #FEB896;
+}
+
+.section2 {
+	background-color: #FEEC96;
+}
+
+.section3 {
+	background-color: #FE96AE;
+}
+
+
+
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.section1, .section2 {
+		width: 48%;
+		}
+		
+	.section3 {
+		width: 98%;
+		}
+	}
+
+	
+
+@media only screen and (min-width: 992px) {
+	.section1, .section2, .section3{
+		width: 31.33%;
+		} 
+	}
+
