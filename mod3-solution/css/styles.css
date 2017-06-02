@@ -82,5 +82,9 @@ a {
     background-color: #2E5D9E;
 }
 
+nav li {
+	font-size: 1.5em;
+}
+
 
 /* Nav Bar Style END*/
