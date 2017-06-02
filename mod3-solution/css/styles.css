@@ -3,14 +3,26 @@
 	padding: 0;
 }
 
-html {
-	background-color: #ffff80;
+body {
 	font-family: 'Raleway', sans-serif;
+	color: #2E5D9E;
+	background-color: #FDF2A1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Chewy', sans-serif;
+	background-color: transparent;
+}
+
+h2 {
+	font-size: 4em;
 }
 
 /* Nav Bar Style START*/
 
 #header-nav.navbar-default .navbar-brand {
+	font-family: 'Chewy', sans-serif;
+	font-size: 2em;
     color: #F4F4F4;
     padding: auto 50px ;
 }
