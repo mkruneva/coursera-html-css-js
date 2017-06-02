@@ -18,6 +18,30 @@ h2 {
 	font-size: 4em;
 }
 
+h3 {
+	font-size: 3em;
+}
+
+.col>div {
+	height: 800px;
+	padding: 5%;
+	border: 2px solid #FCF5C1;
+	background-color: #FAED8D;
+}
+
+header h2 {
+	margin: 5%;
+}
+
+.col h3 {
+	margin: 10%;
+	color: #1CD70F;
+}
+
+a {
+	color: #1CD70F;
+}
+
 /* Nav Bar Style START*/
 
 #header-nav.navbar-default .navbar-brand {
@@ -38,7 +62,7 @@ h2 {
 #header-nav.navbar-default .navbar-nav>li>a:hover,
 #header-nav.navbar-default .navbar-nav>li>a:focus {
     color: #F4F4F4;
-    background-color: #0d3f84;
+    background-color: #1CD70F;
 }
 #header-nav.navbar-default .navbar-nav>.active>a,
 #header-nav.navbar-default .navbar-nav>.active>a:hover,
