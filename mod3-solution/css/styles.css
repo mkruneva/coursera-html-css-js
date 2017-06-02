@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #ffff80;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Nav Bar Style START*/
+
+#header-nav.navbar-default .navbar-brand {
+    color: #F4F4F4;
+    padding: auto 50px ;
+}
+#header-nav.navbar-default {
+    background-color: #2E5D9E;
+    border-width: 0;
+    border-radius: 0;
+}
+#header-nav.navbar-default .navbar-nav>li>a {
+    color: #F4F4F4;
+    background-color: #2E5D9E;
+}
+#header-nav.navbar-default .navbar-nav>li>a:hover,
+#header-nav.navbar-default .navbar-nav>li>a:focus {
+    color: #F4F4F4;
+    background-color: #0d3f84;
+}
+#header-nav.navbar-default .navbar-nav>.active>a,
+#header-nav.navbar-default .navbar-nav>.active>a:hover,
+#header-nav.navbar-default .navbar-nav>.active>a:focus {
+    color: #F4F4F4;
+    background-color: rgba(45, 87, 19, 1);
+}
+#header-nav.navbar-default .navbar-toggle {
+    border-color: #F4F4F4;
+}
+#header-nav.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F4F4F4;
+}
+
+#header-nav.navbar-default .navbar-toggle:hover .icon-bar,
+#header-nav.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #2E5D9E;
+}
+
+
+/* Nav Bar Style END*/
