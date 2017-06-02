@@ -1,2 +1,2 @@
-# coursera-html-css-js-mod2
-Coursera HTML CSS JS Module 2
+# coursera-html-css-js
+Coursera HTML CSS JS 
